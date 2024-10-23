@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo: "Laila", serif;
+    --fonte-texto: "Outfit", sans-serif;
+    --cor-cartao: #2f6690ff;
+    --cor-cabecalho: #3a7ca5ff;
+    --cor-texto02: #000000;
+    --cor-destaque: #d9dcd6ff;
+    --cor-texto01: #16425bff;
+    --cor-fundo: #81c3d7ff;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-texto);
+}
+
+header{
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+    padding: 2em;
+    color: var(--cor-texto02);
+}
+
+header h1{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5em;
+}
+.projetos{
+    padding: 2em;
+    display: flex;
+}
